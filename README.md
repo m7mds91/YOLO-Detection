@@ -37,8 +37,8 @@ This project is a Python PyQt5-based graphical interface that:
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/advanced-camera-yolo-gui.git
-cd advanced-camera-yolo-gui
+git clone https://github.com/m7mds91/YOLO-Detection.git
+cd YOLO-Detection
 
 # Create virtual environment (optional but recommended)
 python -m venv venv
@@ -46,3 +46,48 @@ source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 
 # Install required packages
 pip install -r requirements.txt
+```
+
+🛠 Example requirements.txt
+```bash
+PyQt5==5.15.9
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+torch>=2.0.0
+```
+
+🚀 Run the app
+```bash
+python gui.py
+```
+
+⚙️ Configuration
+```bash
+Logo icon: Set/change via the menu (Settings → Change Logo)
+```
+
+Model: 
+```bash
+Switch via menu (Performance → YOLOv8s / YOLOv8m / YOLOv8l)
+Processing device: CPU or GPU (if available)
+Saved settings: Stored in config.json in the project folder
+```
+📸 Supported Cameras
+| Type            | Example Entry |
+|---------------------|-----------------------|
+| USB Camera             | 0 (default), 1, 2…           |
+| IP Camera             | (http://192.168.x.x:port/path)    |
+| RTSP Stream             |rtsp://192.168.x.x:port/path    |
+
+💻 Notes
+```bash
+For GPU support, ensure PyTorch with CUDA is installed matching your system and GPU drivers.
+Check: PyTorch Install Guide
+YOLOv8 models (.pt files) should be placed in the project directory or adjust the script paths.
+```
+
+🌟 Credits
+```bash
+YOLOv8: Ultralytics
+PyQt5 GUI: Riverbank Computing
+```
