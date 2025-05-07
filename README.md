@@ -87,7 +87,6 @@ YOLOv8 models (.pt files) should be placed in the project directory or adjust th
 ```
 
 🌟 Credits
-```bash
-YOLOv8: Ultralytics
-PyQt5 GUI: Riverbank Computing
-```
+
+YOLOv8: [Ultralytics](https://github.com/ultralytics/ultralytics)
+PyQt5 GUI:  [Riverbank Computing](https://riverbankcomputing.com/software/pyqt/intro)
