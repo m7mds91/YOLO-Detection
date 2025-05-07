@@ -58,7 +58,7 @@ torch>=2.0.0
 
 🚀 Run the app
 ```bash
-python gui.py
+python YOLO-Detection.py
 ```
 
 ⚙️ Configuration
