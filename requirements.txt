@@ -1,0 +1,4 @@
+PyQt5==5.15.9
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+torch>=2.0.0
